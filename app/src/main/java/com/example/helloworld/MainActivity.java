@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(MainActivity.this, "btn is clicked!", Toast.LENGTH_SHORT).show();
-                setContentView(R.layout.activity_second);
+
             }
         });
     }
